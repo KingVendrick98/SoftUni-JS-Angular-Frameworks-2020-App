@@ -45,7 +45,7 @@ The Application  is similar to a trade/sell website where the users can list off
 
 
 
-**Additionally**  the app offers Sign In page, Sign Up page, Logout option, Home page, Create offer, All products, Details.
+**Additionally**  the app offers Sign In page, Sign Up page, Logout option, Home page, Create offer, Delete offer, Edit offer, All products, Details.
 
 ## **Installation**
 
