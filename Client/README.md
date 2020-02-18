@@ -29,13 +29,15 @@ The Application  is similar to a trade/sell website where the users can list off
 - View the Home page
 - View All products (by clicking All products button), see all products from users;
 - View My products (by clicking My products button), see your listed products;
-- Create product button - leads to a creation form for an offer
-- view details about each product by clicking its Details button;
+- Create product (by clicking Create product button) - leads to a creation form for an offer
+- View details about each product (by clicking its Details button);
 -  Logout button
 
-1. **Administrative part** - nly for admins. When the database is initiated for the first time, the server automatically seeds a user with Email: _admin@admin.com_, password _Admin_ and role Admin. He has the following functions:
+1. **Administrative part** - only for admins. When the database is initiated for the first time, the server automatically seeds a user with Email: _admin@admin.com_, password _Admin_ and role Admin. He has the following functions:
 
 - View the Home page, All products, See own products
+- View All products
+- View Own products
 - Create new offers using the Create product button
 - Delete button on each offer in the Details page list(deletes the offer from DB without hesitate)
 - Edit button on each offer in the Details page list(leads to edit offer form and updates the changes on the current offer after submit)
