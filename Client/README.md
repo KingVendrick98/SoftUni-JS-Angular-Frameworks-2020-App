@@ -1,48 +1,49 @@
 #
-# SellAngGo-Angular-App
+# SellAndGo-App
 
-## **Introduction**
+### SellAndGo is a Web Application, created using Angular framework for the user interface, a local server built using Node.js and MongoDB for the back-end. It is made as a project for the Angular Framework course exam in SoftUni.
 
-###
-# SellAngGo
- **is a Web Application, created with AngularJS/CLI and using Node.js and database MongoDB for the backend. Started January 2020/ SoftUni.**
+##
+# Summary
 
-## **Description**
+The Application  is similar to a trade/sell website where the users can list offers, buy and sell items. Much like &quot; Aliexpress.com &quot; and &quot;Amazon.com&quot; it displays user offers and allows the clients to interact with each other. There are two types of roles are implemented in this project: Admin and user(regular user with no admin rights). Depending on the role you can have access to different parts and functionalities. Users: can create offers and view all available offers including their own in details. Admins: including the regular users rights they can create, edit and delete all offers in the database.
 
-The project is a kind of a sale/offer website where the users can list offers, buy and sell items. It displays created offers and allows users to interract with eachother. Two types of roles are implemented in this project: admin , user(regular user with no admin rights). Depending on the role you can have access to different parts and functionalities. Users: can create offers and view all available offers including their own in details. Admins: including the regular users rights they can create, edit and delete all offers in the database.
+##
+# Build
 
-## **Strucutre**
-
-3 main parts:
+# 3 main parts:
 
 - public
 - private
 - administrative
 
-The public part is visible just for non-authentication:
+1. **Public part** - which is accessible to everyone, without authentication. Every visitor can:
 
 - Home page background with no functionality
-- Home button leading nowhere yet
+- View the Home page (by clicking the brand logo);
 - Sign In button ( leading to signin form)
 - Sign Up button ( leading to signup form)
 
-The private part is available to registered users only:
+1. **Private part** - only for logged in users. After successful registration using the given(by the user) credentials, he can use the full functionality of the application:
 
-- Home page is now different static page(greeting).
-- All products button - leads to a page where the offers from all users are listed
-- My product button - leads to a page where the current users offers are listed
+- View the Home page
+- View All products (by clicking All products button), see all products from users;
+- View My products (by clicking My products button), see your listed products;
 - Create product button - leads to a creation form for an offer
-- Offers can be viewed in detail by having a details button(leads to details page)
+- view details about each product by clicking its Details button;
+-  Logout button
+
+1. **Administrative part** - nly for admins. When the database is initiated for the first time, the server automatically seeds a user with Email: _admin@admin.com_, password _Admin_ and role Admin. He has the following functions:
+
+- View the Home page, All products, See own products
+- Create new offers using the Create product button
+- Delete button on each offer in the Details page list(deletes the offer from DB without hesitate)
+- Edit button on each offer in the Details page list(leads to edit offer form and updates the changes on the current offer after submit)
 - Logout button
 
-The administrative part is available to users with the role &quot;Admin&quot;:
 
-- Delete button on each offer in the Details page list(deletes the offer from DB)
-- Edit button on each offer in the Details page list(leads to edit offer form and updates the changes on the current offer after submit)
 
-An Admin is manually seeded into the database:
-
-- Admin(with admin rights): Email: [admin@admin.com](mailto:admin@admin.com) Name: Admin Password: Admin
+**Additionally**  the app offers Sign In page, Sign Up page, Logout option, Home page, Create offer, All products, Details.
 
 ## **Installation**
 
