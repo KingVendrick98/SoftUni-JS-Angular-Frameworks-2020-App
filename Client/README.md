@@ -35,7 +35,7 @@ The Application  is similar to a trade/sell website where the users can list off
 
 1. **Administrative part** - only for admins. When the database is initiated for the first time, the server automatically seeds a user with Email: _admin@admin.com_, password _Admin_ and role Admin. He has the following functions:
 
-- View the Home page, All products, See own products
+- View the Home page
 - View All products
 - View Own products
 - Create new offers using the Create product button
