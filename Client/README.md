@@ -1,5 +1,13 @@
 
+## **Installation**
 
+### **Server: &quot;Server&quot; folder**
+
+#### **Install dependencies: **** npm install **** , start the client: **** node index**** (port: 5000).**
+
+### **Client: &quot;Client&quot; folder (React web app)**
+
+#### **Install dependencies: **** npm install **** , start the client: **** ng serve**** (port: 4200).**
 
 # AngularSellAndGoApp
 
