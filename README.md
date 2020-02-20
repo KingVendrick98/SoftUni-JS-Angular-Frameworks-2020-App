@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/KingVendrick98/SoftUni-JS-Angular-Frameworks-2020-App.svg)](http://hits.dwyl.com/KingVendrick98/SoftUni-JS-Angular-Frameworks-2020-App)
+
 #
 # SellAndGo-App
 
