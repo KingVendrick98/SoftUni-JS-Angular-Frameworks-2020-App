@@ -19,6 +19,8 @@ import { JwtInterceptorService } from './jwt-interceptor.service';
 
 import { ResponseHandlerService } from './response-handler.service';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     CollapseDirective,
     FooterComponent,
+    AboutComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

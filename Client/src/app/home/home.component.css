@@ -1,0 +1,31 @@
+/* Centered text */
+.centered {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2.0em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bot {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2.0em;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.offers {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2.0em;
+  position: absolute;
+  top: 90%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}

@@ -15,8 +15,8 @@
           </span>
         </div>
         <div class="card-desc">
-          <h3>{{f.itemName}}</h3>
-          <p>{{f.description | slice:0:230}}...</p>
+          <h3>{{f.itemName | slice:0:40}}</h3>
+          <p>{{f.description | slice:0:200}}...</p>
           <a [routerLink]="['/product/details', f._id]" class="btn-card">Details</a>
         </div>
       </div>
@@ -26,7 +26,8 @@
     <div class="row">
       <div class="col-lg-4"></div>
       <div class="col-lg-4 text-center">
-        <h1>Loading</h1>
+        <h1>Loading...</h1>
+        <p>Thank you for your patience</p>
       </div>
       <div class="col-lg-4"></div>
     </div>

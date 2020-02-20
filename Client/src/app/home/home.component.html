@@ -1,12 +1,12 @@
-<h1 *ngIf="!authService.isAuthenticated()">
-  <img
-    src="https://i1.wp.com/fintechranking.com/wp-content/uploads/2016/02/ecommerce-woocommerce-plugin.jpg?fit=1600%2C900"
-    width="100%" height="100%">
-</h1>
+<img src="https://merithewlaw.com/wp-content/uploads/Website-E-Commerce.png" width="100%" height="100%">
+<div class="centered">SellAndGo is the easiest way to sell you'r old stuff. Easy and simple to use.
+  Dont hesitate to rid yourself from you'r old items.
+</div>
 
-
-
-<h1 *ngIf="authService.isAuthenticated()">
-  <img src="https://merithewlaw.com/wp-content/uploads/Website-E-Commerce.png" width="100%" height="100%">
-</h1>
-
+<div *ngIf="!authService.isAuthenticated()">
+  <div class="centered">SellAndGo is the easiest way to sell you'r old stuff. Easy and simple to use.
+    Dont hesitate to rid yourself from you'r old items.
+  </div>
+  <div *ngIf="!authService.isAuthenticated()">
+    <div class="bot"><button type="button" class="btn btn-dark" routerLink="/signup">JOIN TODAY!</button></div>
+  </div>
