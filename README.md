@@ -65,4 +65,4 @@ The Application  is similar to a blog/post website where the users can make post
 
 
 
-**Additionally**  the app offers Sign In page, Sign Up page, Logout option, About page, Contact,  Home page, Create offer, Delete offer, Edit offer, All products, Details.
+**Additionally**  the app offers Sign In page, Sign Up page, Logout option, About page, Home page, Create post, Delete post, Latest Posts, Full Post.
