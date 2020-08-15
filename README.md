@@ -40,7 +40,7 @@ The Application  is similar to a blog/post website where the users can make post
 
 # Build
 
-# 3 main parts:
+# 2 main parts:
 
 - public
 - private
@@ -53,7 +53,7 @@ The Application  is similar to a blog/post website where the users can make post
 - Sign In button ( leading to signin form);
 - Sign Up button ( leading to signup form);
 
-1. **Private part** - only for logged in users. After successful registration using the given(by the user) credentials, he can use the full functionality of the application:
+2. **Private part** - only for logged in users. After successful registration using the given(by the user) credentials, he can use the full functionality of the application:
 
 - View the Home page (by clicking the brand logo "GameWatchers");
 - About  button ( leading to about information page);
