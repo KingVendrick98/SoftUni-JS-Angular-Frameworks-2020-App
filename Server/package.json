@@ -19,7 +19,7 @@
     "jsonwebtoken": "7.4.1",
     "mongo": "^0.1.0",
     "mongodb": "^3.5.3",
-    "mongoose": "^5.4.20",
+    "mongoose": "^5.7.5",
     "passport": "0.3.2",
     "passport-local": "1.0.0",
     "validator": "7.2.0"
